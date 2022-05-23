@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CHALLENGE #1 PROYECTO ONE - ENCRIPTADOR DE TEXTO</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <img src="img/Logo.png" alt="Logo" class="logo">
+
+        <span class="nom">Encriptador de Texto</span> 
+
+    </header>
+    <main class="container">
+        <div class="caja-uno">
+            <textarea cols="30" rows="10" class="texto" placeholder="Ingrese el texto aquí"></textarea>
+            <div class="exclamacion">
+                <img src="img/bi_exclamation-circle-fill.png" alt="Exclamacion">
+                <p class="texto-dos">Solo letras minúsculas y sin tilde</p>
+            </div>
+            <div class="caja-botones">
+                <button type="button" id="encriptar" class="botonUno"><p>Encriptar</p></button>
+                <button class="botonDos" id="desencriptar"><p>Desencriptar</p></button>
+            </div>
+        </div>
+        <div class="caja-dos" id="mensaje">
+            <img src="img/Muñeco.png" alt="Muñeco" class="img-dos">
+            <div class="caja-texto">
+                <h4 class="caja-textoUno">Ningún mensaje fue encontrado</h4>
+                <h5 class="caja-textoDos">Ingrese el texto que desee encriptar o desencriptar</h5>
+            </div>
+        </div>
+        <div class="caja-copiar">
+            <button class="copiar"><p>Copiar el texto</p></button>
+        </div>
+    </main>
+    <footer>
+        <div class="caja-img">
+            <br>
+            <a href="https://www.linkedin.com/in/jose-miguel-almonte-solis-69585a239/" id="links" target="_blank"><img src="img/sociallinkedin_member_70.png" alt="Linkedin" id="img"></a>
+            <a href="https://github.com/JoseMiguel1989" id="links" target="_blank"><img src="img/github_git_icon_145985.png" alt="GitHub" id="img"></a>
+            <p class="autor"> 2022 - José Miguel Almonte</p>
+        </div>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>
